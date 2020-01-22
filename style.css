@@ -1,0 +1,124 @@
+body,
+html {
+    font-family: 'Montserrat';
+    height: 100%;
+}
+
+/* semua ukuran */
+
+
+/* navbar */
+
+.bungkus {
+    height: 100vh;
+    background-image: none;
+    background-color: #0D174D;
+}
+
+.nav-link.active {
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #1ABC9C !important;
+}
+
+.navbar {
+    background-image: none;
+    background-color: #6A76B7;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #0D174D;
+}
+
+.jumbotron .display-4 {
+    font-size: 56px;
+    font-weight: 300;
+    color: white;
+}
+
+.jumbotron .display-4 span {
+    color: #FFEE69;
+}
+
+.jumbotron p {
+    color: #A1A7CE;
+}
+
+.jumbotron {
+    background-image: none;
+    background-color: #0D174D;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.buynow {
+    width: 195px;
+    height: 50px;
+    background-color: #1ABC9C;
+    color: white;
+    border-radius: 0;
+    border: none;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    height: 50px;
+    opacity: 1;
+
+}
+
+.carousel-control-prev {
+    width: 50%;
+    background-color: #0D174D;
+}
+
+.carousel-control-next {
+    width: 50%;
+    background-color: #6A76B7;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 16px;
+}
+
+/* ukuran website */
+
+@media (min-width: 992px) {
+
+    /* navbar */
+
+    .bungkus {
+        height: 100vh;
+        background-image: linear-gradient(90deg, #0D174D 57%, white 43%);
+    }
+
+    .navbar {
+        background-image: linear-gradient(90deg, #0D174D 57%, white 43%);
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 45px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link:nth-child(n+3) {
+        color: #0D174D;
+    }
+
+    .navbar-dark .navbar-nav .nav-link:nth-child(2) {
+        color: white;
+    }
+
+    .jumbotron {
+        background-image: linear-gradient(90deg, #0D174D 57%, white 43%);
+        border-radius: 0;
+    }
+
+}
